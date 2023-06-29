@@ -22,7 +22,7 @@ function ListItem({ content }: { content: string }) {
   return (
     <li className="flex items-start sm:items-center mb-3">
       <div className="mr-4 p-[2px]">
-        <Image src={ListIcon} alt={content} width={21} height={21} />
+        <Image src={ListIcon} alt="benefit" width={21} height={21} />
       </div>
       <div className="text-dark-slate-grey">{content}</div>
     </li>
