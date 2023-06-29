@@ -10,10 +10,10 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-dark-slate-grey text-neutral-white hover:bg-gradient-to-b from-tomato to-[#FF527B] hover:shadow-[0px_16px_32px_0px_rgba(255,97,85,0.50)] font-bold h-[56px]",
+          "bg-dark-slate-grey text-neutral-white hover:bg-gradient-to-b from-tomato to-[#FF527B] hover:shadow-[0px_16px_32px_0px_rgba(255,97,85,0.50)] font-bold",
       },
       size: {
-        default: "h-10 px-4 py-2",
+        default: "h-[56px] px-4 py-2",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
         icon: "h-10 w-10",
