@@ -90,16 +90,17 @@ export default function Home() {
 
                 <form onSubmit={handleSubmit(onSubmit)}>
                   <div className="mb-6">
-                    <Label htmlFor="email" className="text-xs">
-                      <div className="flex justify-between">
-                        <div>Email address</div>
-                        {hasErrors && (
-                          <div className="text-tomato">
-                            Valid email required
-                          </div>
-                        )}
-                      </div>
-                    </Label>
+                    <div className="flex justify-between">
+                      <Label htmlFor="email" className="text-xs">
+                        Email address
+                      </Label>
+                      {hasErrors && (
+                        <div className="text-tomato text-xs font-medium">
+                          Valid email required
+                        </div>
+                      )}
+                    </div>
+
                     <Input
                       type="text"
                       id="email"
